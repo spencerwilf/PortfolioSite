@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Alex Smith.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
+      strings: ["Spencer Wilfahrt.", "A Software Engineer.", 'looking for a great opportunity',],
       typeSpeed: 100,
       loop: true,
     });
@@ -91,15 +91,15 @@ $(document).ready(function() {
   // ========================================================================= //
 
 
-  $('.services-carousel').owlCarousel({
-      autoplay: true,
-      loop: true,
-      margin: 20,
-      dots: true,
-      nav: false,
-      responsiveClass: true,
-      responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
-    });
+  // $('.services-carousel').owlCarousel({
+  //     autoplay: true,
+  //     loop: true,
+  //     margin: 20,
+  //     dots: true,
+  //     nav: false,
+  //     responsiveClass: true,
+  //     responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
+  //   });
 
   // ========================================================================= //
   //  magnificPopup

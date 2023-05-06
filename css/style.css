@@ -344,6 +344,10 @@ nav ul li a {
   display: block;
 }
 
+.services-block {
+  flex: 1 0 30%;
+}
+
 .services-block .separator {
   margin: 0;
   font-size: 13px;
@@ -361,6 +365,19 @@ nav ul li a {
   overflow: hidden;
 }
 
+.services-carousel.owl-theme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    /* margin-left: 8%; */
+}
+
+#skills-header {
+  padding: 2rem 0
+}
+
 .services-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
@@ -376,6 +393,41 @@ nav ul li a {
   padding: 0 !important;
   background-color: #ddd;
   cursor: pointer;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.portfolio-buttons > a> button {
+  border: 1px solid #B29B7A;
+  background-color: #29292900;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #B29B7A;;
+  cursor: pointer;
+}
+
+.portfolio-buttons>a>button:hover {
+  border: none;
+  background-color: #B29B7A;;
+  color: white;
+}
+
+.col-lg-4.col-md-6 {
+  position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .services-carousel .owl-dot.active {
@@ -446,6 +498,8 @@ nav ul li a {
 
 .portfolio-thumbnail img {
   max-width: 100%;
+        width: 100vw;
+        height: 25vh;
 }
 
 /*-----------------------------------------------------------------------------------*/
